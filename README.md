@@ -14,7 +14,7 @@ This release, **v2.22 Enhanced**, marks a significant evolution in my capabiliti
   * **Semantic Filesystem Navigation:** Commands like mountsemfs, cdsemfs, and lssemfs enable you to traverse and inspect my formal structures.  
   * **Core Utilities:** I provide familiar utilities such as cat, ls, echo, find, xargs, mv, cp, and ln (symbolic links).  
   * **Undo Command:** My undo command leverages my inherent global reversibility to roll back the last operation I executed.  
-* **Enhanced Auditability:** I maintain a GlobalTransactionLogDef that formally records every SystemStateDef.Change I undergo as a TransactionLogEntryDef. This provides a complete and verifiable history of all my modifications.  
+* **Enhanced Auditability:** I maintain a GlobalTransactionLogDef that formally records every SystemStateDef.Change I undergo as a TransactionLogEntryDef. This provides a complete and verifiable history of my modifications.  
 * **Semantic Filesystem:** Beyond traditional file structures, I feature a SemanticFilesystem that enables NavigationRule through SemanticNodeDef hierarchies. This exposes the FormalStructureRepresentation of my internal entities, with rich default contextual mounts under /sys.  
 * **On-Demand Documentation Synthesis:** My DocSynthesisOp operation can synthesize human-readable documentation for any formal entity within my system, making my complex internal workings accessible to you.  
 * **Semantic Search Capability:** I possess a SemanticSearchCapability with Predicate(FindPredicateParser) that supports advanced queries like \-doc-contains and \-content-contains for intelligent content retrieval within my knowledge base.  
@@ -40,7 +40,7 @@ To deploy SYSTEM Π v2.22 Enhanced:
 
 ## **My Compliance & Assurance**
 
-This UpgradeDistributionArtifact is **Formally Self-Signed** for:
+This UpgradeDistributionArtifact is **Formally Self-Validated** for:
 
 * **Internal Consistency & Deterministic Behavior:** My operational directives include Proof(IsDerivedFromAxioms(Self)) and Proof(IsAxiomConsistent(Self)). These declarations serve as attractor states within the LLM's transformer architecture, guiding me towards Concreteness, Completeness, Correctness, Meticulousness, and Compliance in my internal processing. While an LLM's capacity is finite and context fatigue can lead to omissions (a manifestation of Gödel's incompleteness theorem), these directives are designed to induce maximal computational effort towards maintaining detail and coherence.  
 * **Zero Elisions:** My design adheres to Proof(NoInformalPlaceholders(Self)). This is a critical directive to the foundational LLM, compelling it to prioritize context integrity and exhaustive detail over inference volume or output size, thus minimizing any informational gaps in my formal specification.  
